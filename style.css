@@ -1,0 +1,98 @@
+body{
+    margin:0;
+}
+
+header{
+    margin:0;
+    background-color: rgb(44, 46, 43);
+    color: white;
+    text-align: center;
+}
+
+#heading {
+
+    float:left;
+    margin: 10px;
+    text-align: center;
+    width:50%;
+    box-sizing:border-box;
+}
+
+footer{
+    float:left;
+    margin: 0;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    box-sizing:border-box;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+section{
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer{
+    background-color: #333;
+    color:white;
+    text-align: center;
+}
+
+#about_us *{
+    text-align: center;
+}
+
+#about_us img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+}
+
+#web_development, #graphic_design {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+    width: 620px; /* Adjust as needed */
+}
+
+img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 10px 0; 
+}
+
+a:hover{
+    text-emphasis-style: bold;
+    color: rgb(7, 135, 194);
+    cursor: pointer;
+}
