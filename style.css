@@ -50,7 +50,7 @@ li a {
     text-decoration: none;
 }
 
-section{
+section, article {
     justify-content: center;
     align-items: center;
 
