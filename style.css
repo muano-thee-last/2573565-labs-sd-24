@@ -1,6 +1,8 @@
 body{
     margin:0;
+    transition-duration:2s;
 }
+
 
 header{
     margin:0;
@@ -95,4 +97,7 @@ a:hover{
     text-emphasis-style: bold;
     color: rgb(7, 135, 194);
     cursor: pointer;
+}
+h3{
+    text-align: center;
 }
