@@ -1,6 +1,6 @@
 body{
     margin:0;
-    transition-duration:2s;
+    text-align: center;
 }
 
 
@@ -98,6 +98,7 @@ a:hover{
     color: rgb(7, 135, 194);
     cursor: pointer;
 }
+
 h3{
     text-align: center;
 }
